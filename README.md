@@ -27,7 +27,7 @@ Ten projekt wykorzystuje ESP32 z czujnikiem ultradźwiękowym i komunikacją Blu
   - tryb testowy z nadpisywaniem ostatniego okrążenia (`test`)
 - Gdy zostaną ukończone 4 okrążenia, BLE wysyła komunikat `end`.
 
-## 📲 Komendy BLE
+## Komendy BLE
 
 - `reset` – resetuje wszystkie czasy, uzbraja system
 - `stop` – zatrzymuje pomiary
@@ -42,7 +42,7 @@ Ten projekt wykorzystuje ESP32 z czujnikiem ultradźwiękowym i komunikacją Blu
 4. Obiekt przejeżdża pod czujnikiem — system liczy okrążenia.
 5. Po 4 okrążeniach wysyłany jest komunikat `end`.
 
-## 📌 Uwaga
+##  Uwaga
 - Kod używa histerezy: dystans musi spaść **poniżej 100 cm**, a potem wzrosnąć **powyżej 120 cm**, żeby uznać zakończenie i rozpoczęcie kolejnego okrążenia.
 - Jeśli BLE się rozłączy, reklama BLE zostanie wznowiona automatycznie po 0.5 sekundy.
 
