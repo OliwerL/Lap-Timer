@@ -2,7 +2,7 @@
 
 Ten projekt wykorzystuje ESP32 z czujnikiem ultradźwiękowym i komunikacją Bluetooth Low Energy (BLE), aby mierzyć czasy okrążeń (lap timer) dla modelu samochodu lub innego obiektu przejeżdżającego przed czujnikiem.
 
-## 📦 Wymagane komponenty
+## Wymagane komponenty
 - ESP32 (np. ESP32-S3, WROOM, DEVKIT v1 itd.)
 - Czujnik ultradźwiękowy (HC-SR04 lub inny, z pinami `trig` i `echo`)
 - Zasilanie dla ESP32
